@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 30px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+
+    height: 100%; /*высота блока*/
+    background-color:chocolate ; /*цвет фона*/
+    color: rgb(255, 255, 255); /*цвет текста*/
+    text-align: center; /*выравание текста*/
+    font-size: 40px; /*размер текста*/
+    background-image: url(https://img.freepik.com/free-photo/delicious-coffee-beans-and-cup_23-2150691429.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722211200&semt=ais_hybrid);
+    background-size: contain;
+    background-position: bottom;
+}
+main{
+
+    background-color:rgb(99, 44, 5) ; /*цвет фона*/
+    color: rgb(243, 6, 6); /*цвет текста*/
+    text-align: right; /*выравание текста*/
+    font-size: 20px; /*размер текста*/
+    padding: 10px;
+    background-image: url(https://microless.com/cdn/products/62474dd0c34138788ab91f950ec3c7a2-hi.jpg);
+    background-size: cover;
+    display: flex;
+
+}
+
+.left{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+
+}
+
+.right{
+    padding: 50px;
+    width: 50%;
+    font-size: 20px;
+}
+
+footer{
+    height: 300px; /*высота блока*/
+    background-color:rgb(30, 126, 210) ; /*цвет фона*/
+    color: rgb(255, 255, 255); /*цвет текста*/
+    text-align: center; /*выравание текста*/
+    font-size: 50px; /*размер текста*/
+    background-image: url(https://leagueofcoffee.ru/assets/cache_image/img/spoiled_coffee_800x450_ccf.jpg);
+    padding-top: 20px;
+}
+
+.cocial img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.cocial{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
